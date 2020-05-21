@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cactus</title>
+	<link href="./css/styles.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+	<header id="header">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="nav-bar">
+			<a class="navbar-brand" href="#">
+			<h1><img alt="#logoImg" height="50" id="header-img" src="./img/header-img.png" width="50">Cactus</h1></a> <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#landing-page">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#products">Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#social">Social</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#order">Order</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+    </header>
+    <!-- Landing Page -->
+	<section id="landing-page">
+		<div class="container text-white main-section-text">
+			<h2 class="text-center">Shop Cactus</h2>
+		</div>
+    </section>
+    <!-- Products -->
+	<section id="products">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="lead text-center">Check out our Cacti Store!</h3>
+					<hr class="bg-">
+				</div>
+			</div>
+			<div class="card-columns">
+				<div class="card">
+					<img alt="Cacti" class="card-img-top" src="./img/img-1.jpg">
+					<div class="card-body">
+						<h3 class="h5 card-title">Cactus Plant</h3>
+						<p class="card-text">$5.00</p><button class="btn btn-outline-dark"><i class="fa fa-arrow-right"></i> Buy</button>
+					</div>
+				</div>
+				<div class="card">
+					<img alt="Cacti" class="card-img-top" src="./img/img-2.jpg">
+					<div class="card-body">
+						<h3 class="h5 card-title">Cacti</h3>
+						<p class="card-text">$15.00</p><button class="btn btn-outline-dark"><i class="fa fa-arrow-right"></i> Buy</button>
+					</div>
+				</div>
+				<div class="card">
+					<img alt="Aloe" class="card-img-top" src="./img/img-3.jpg">
+					<div class="card-body">
+						<h3 class="h5 card-title">Aloe</h3>
+						<p class="card-text">$10.00</p><button class="btn btn-outline-dark"><i class="fa fa-arrow-right"></i> Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    <!-- Social -->
+	<section id="social">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 center">
+					<p class="s-size text-center center">SOCIAL FEED</p>
+					<div>
+						<iframe allowfullscreen frameborder="0" height="315" id="video" name="video" src="https://www.youtube.com/embed/jHc1e3hEWE0" width="560"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    <!-- Signup -->
+	<section id="signup">
+		<div class="row">
+			<div class="col-md-12">
+				<i class="fas fa-glass-martini"></i>
+				<h3 class="text-center text-white">Order a plant online today<br>
+				for pickup or delievery!</h3>
+			</div>
+			<div class="col-md-12">
+				<p class="slogan text-center">Sign up for our newsletter for daily plant specials!</p>
+				<form action="https://www.freecodecamp.com/email-submit" class="center" id="form" name="form">
+					<input class="form-control" id="email" name="email" placeholder="Enter your email address" required="" type="email"> <input class="btn btn-news" id="submit" type="submit" value="Get Started">
+				</form>
+			</div>
+		</div>
+    </section>
+    <!-- Order Form -->
+	<section class="text-white" id="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 center">
+					<form id="contact-form" name="contact-form">
+						<div class="form-group">
+							<label for="name">Name</label> <input class="form-control" placeholder="Name" type="text">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label> <input class="form-control" placeholder="Email" type="email">
+						</div>
+						<div class="form-group">
+							<label for="number">Contact</label> <input class="form-control" placeholder="Your Contact Number" type="text">
+						</div>
+						<div class="form-group">
+							<label for="details">Message</label> 
+							<textarea class="form-control" cols="30" id="" placeholder="Enter Your Message Here" rows="3"></textarea>
+						</div><button class="contact-btn btn-block"><i class="far fa-paper-plane"></i> Submit</button>
+					</form>
+				</div>
+			</div>
+        </div>
+    </section>
+    <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<p class="h6 font-weight-light">&copy; Jamie Fudge</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+</body>
+</html>

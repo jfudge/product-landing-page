@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap');
+body {
+	background: #EBEBEB;
+	font-family: 'Roboto', sans-serif !important;
+	overflow-x: hidden;
+}
+h1 {
+	font-family: 'Lato', sans-serif !important;
+}
+h2.text-center {
+	font-size: 50px;
+	font-family: 'Lato', sans-serif !important;
+	margin-top: 20px;
+}
+.container {
+	padding-top: 20px;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 111;
+}
+.top-nav {
+	width: 100%;
+	top: 0;
+}
+#nav-bar {
+	background: #478500 !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+a.navbar-brand {
+	color: #FFF;
+}
+a.navbar-brand:hover {
+	color: red;
+}
+#landing-page {
+	background: linear-gradient(#eeecec33, rgba(109, 8, 88, 0.51)), url("../img/cover.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+}
+#products {
+	background: #FFF;
+}
+.card {
+	display: flex;
+}
+#social {
+	background: #99cd6c;
+	padding: 30px;
+}
+#signup {
+	background: #60a226;
+	padding: 30px;
+}
+#order {
+	background: url("../img/cactus.jpg") repeat;
+	margin-top: 0px !important;
+}
+#order h2 {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+h3 {
+	color: #000;
+}
+input#email {
+	width: 36%;
+	display: inline-block;
+}
+input[type="submit"] {
+	background-color: #f1c40f;
+	margin: 0 auto;
+	display: inline-block;
+}
+.form-control {
+	border: 1px solid green !important;
+}
+.form-group {
+	text-align: left;
+}
+li.nav-item a {
+	color: #FFF;
+}
+li {
+	font-size: 20px;
+}
+.main-section-text {
+	padding-top: 200px;
+}
+.s-size {
+	letter-spacing: 6px;
+}
+hr {
+	width: 50%;
+}
+.b-left {
+	border-left: 1px solid black;
+}
+.slogan {
+	color: red;
+}
+#contact-form {
+	margin: 35px;
+	color: green;
+	font-weight: 600;
+	padding-top: 20px;
+}
+.contact-btn {
+    background: #478500;
+    border: none;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width: 576px) {
+	/*  Global  */
+	h2.text-center {
+		font-size: 30px;
+	}
+}
